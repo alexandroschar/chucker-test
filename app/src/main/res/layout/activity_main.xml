@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/item_dashboard_candidate_trait_wrapper"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/corvette"
+    android:paddingTop="@dimen/keyline_16"
+    android:paddingHorizontal="@dimen/keyline_16">
+
+  <ImageView
+      android:id="@+id/item_dashboard_candidate_trait_icon"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      android:src="@drawable/ic_trait_new" />
+
+  <TextView
+      android:id="@+id/item_dashboard_candidate_trait_label"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:textColor="@color/oxford_blue"
+      android:text="testing"
+      android:layout_marginHorizontal="@dimen/keyline_8"
+      app:layout_constraintStart_toEndOf="@id/item_dashboard_candidate_trait_icon"
+      app:layout_constraintEnd_toStartOf="@id/item_dashboard_candidate_trait_count_icon"
+      app:layout_constraintTop_toBottomOf="@id/item_dashboard_candidate_trait_icon"
+      app:layout_constraintBottom_toTopOf="@id/item_dashboard_candidate_trait_icon"
+      style="@style/TextAppearanceBody"/>
+
+  <ImageView
+      android:id="@+id/item_dashboard_candidate_trait_count_icon"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="@dimen/keyline_4"
+      android:src="@drawable/rebranded_person"
+      app:layout_constraintTop_toBottomOf="@id/item_dashboard_candidate_trait_icon"
+      app:layout_constraintBottom_toTopOf="@id/item_dashboard_candidate_trait_icon"
+      app:layout_constraintEnd_toStartOf="@id/item_dashboard_candidate_trait_count"/>
+
+  <TextView
+      android:id="@+id/item_dashboard_candidate_trait_count"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="#959595"
+      android:text="12"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/item_dashboard_candidate_trait_icon"
+      app:layout_constraintBottom_toTopOf="@id/item_dashboard_candidate_trait_icon"
+      style="@style/TextAppearanceCaption"/>
+
+  <View
+      android:id="@+id/item_dashboard_candidate_trait_divider"
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      app:layout_constraintStart_toStartOf="parent"
+      android:background="@drawable/divider_horizontal"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/item_dashboard_candidate_trait_icon"
+      android:layout_marginTop="@dimen/keyline_16"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

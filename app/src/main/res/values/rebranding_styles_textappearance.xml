@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="TextAppearanceDisplay">
+    <item name="android:textSize">24sp</item>
+    <item name="android:fontFamily">sans-serif</item>
+    <item name="android:textStyle">normal</item>
+  </style>
+  <style name="TextAppearanceHeadline">
+    <item name="android:textSize">20sp</item>
+    <item name="android:fontFamily">sans-serif-medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:letterSpacing">0.01</item>
+    <item name="android:textColor">@color/oxford_blue</item>
+  </style>
+  <style name="TextAppearanceSubtitle">
+    <item name="android:textSize">16sp</item>
+    <item name="android:fontFamily">sans-serif-medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:letterSpacing">0.01</item>
+    <item name="android:lineSpacingExtra">8sp</item>
+  </style>
+  <style name="TextAppearanceBody">
+    <item name="android:textSize">16sp</item>
+    <item name="android:fontFamily">sans-serif</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:letterSpacing">0.03</item>
+    <item name="android:lineSpacingExtra">7sp</item>
+  </style>
+  <style name="TextAppearanceButton">
+    <item name="android:textSize">14sp</item>
+    <item name="android:fontFamily">sans-serif-medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:letterSpacing">0.1</item>
+  </style>
+  <style name="TextAppearanceSubtitle2">
+    <item name="android:textSize">14sp</item>
+    <item name="android:fontFamily">sans-serif-medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:letterSpacing">0.01</item>
+    <item name="android:lineSpacingExtra">10sp</item>
+  </style>
+  <style name="TextAppearanceBody2">
+    <item name="android:textSize">14sp</item>
+    <item name="android:fontFamily">sans-serif</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:letterSpacing">0.02</item>
+    <item name="android:lineSpacingExtra">6sp</item>
+  </style>
+  <style name="TextAppearanceButton2">
+    <item name="android:textSize">12sp</item>
+    <item name="android:fontFamily">sans-serif-medium</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:letterSpacing">0.1</item>
+    <item name="android:lineSpacingExtra">4sp</item>
+  </style>
+  <style name="TextAppearanceCaption">
+    <item name="android:textSize">12sp</item>
+    <item name="android:fontFamily">sans-serif</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:letterSpacing">0.03</item>
+    <item name="android:lineSpacingExtra">4sp</item>
+  </style>
+</resources>
